@@ -162,5 +162,8 @@ the area of extracting images from group photo
 - [http://staff.ustc.edu.cn/zwp/teach/MVA/pcaface.pdfFace](http://staff.ustc.edu.cn/zwp/teach/MVA/pcaface.pdfFace) Matching Algorithm Guide
 - [http://www.cs.otago.ac.nz/cosc453/student-tutorials/principal-components.pdf](http://www.cs.otago.ac.nz/cosc453/student-tutorials/principal-components.pdf)
 
-
+## Group members
+-Devika Miglani(MS21034)
+-Mansi Pitaliya(MS21038)
+-Jiyen Sachdeva(MS21154)
 
