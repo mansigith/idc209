@@ -3,15 +3,18 @@ import zipfile
 import numpy as np
 import matplotlib.pyplot as plt
 import csv
-
-# Load face images from the zip file
+#load face images from zip files
 faces = {}
 with zipfile.ZipFile("face-dataset.zip") as facezip:
     for filename in facezip.namelist():
         if not filename.endswith(".pgm"):
-            continue
+            continue # not a face picture
         with facezip.open(filename) as image:
+            # If we extracted files from zip, we can use cv2.imread(filename) instead
             faces[filename] = cv2.imdecode(np.frombuffer(image.read(), np.uint8), cv2.IMREAD_GRAYSCALE)
+
+
+
 
 # Retrieve dimensions of the images
 faceshape = list(faces.values())[0].shape
