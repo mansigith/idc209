@@ -5,9 +5,10 @@ Digital attendance system based on group picture using PCA algorithm and HaarCas
 The codes submitted corresponds to creating a face recognition system based on PCA algorithm 
 and using basic Linear Algebra. 
 
-The code consists of two parts 
+The code consists of three parts 
 1) The face recognition part which will recognise faces based on PCA analysis
 2) The group.py which will extract faces from the group first, so that I can apply the face recognition algorithm on the faces.
+3) Training and testing the model and storing result in csv files.
 
 Overall this project aims at dimension reduction and face recognition using basic PCA and Linear Algebra. 
 
@@ -141,6 +142,9 @@ and we can access them with OpenCV methods. But this method is not 100% effectiv
 Computer Vision attendancesystem to work, the images which are provided into the system
 should not have a lot variables to work upon, or else it might not work properly (unless we have an
 error proof method of extracting each and every face).
+
+## Training the model and storing the results
+We train the model by calculating the weights of training set.csv files are prepared to store the results which show the best match.Model is stested by taking one image each of 40 objects.
 
 ##  Results:
 
